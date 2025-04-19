@@ -2,7 +2,7 @@ import pywhatkit as kit
 import time
 
 def enviar_whatsapp():
-    # Utilizar un diccionario para añadir diferentes números de teléfono y mensajes
+    # Utilizo un diccionario en el que el par clave/valor son el numero de telefono y el mensaje respectivamente
     mensajes = {}
 
     print("Bienvenido a la herramienta de envío de mensajes por WhatsApp")
