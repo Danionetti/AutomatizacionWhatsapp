@@ -27,7 +27,7 @@ def enviar_whatsapp():
                 tab_close=True,
                 close_time=3
             )  # Enviar mensaje
-            time.sleep(10)  # Esperar 10 segundos entre mensajes
+            time.sleep(10)  # Esperar 10 segundos entre mensajes, esto se puede cambiar.
 
         except Exception as e:
             print("Error al enviar el mensaje a", numero, ":", e)
